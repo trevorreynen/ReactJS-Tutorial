@@ -1,0 +1,11 @@
+@import 'bulma/css/bulma.min.css';
+
+.App {
+    font: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}

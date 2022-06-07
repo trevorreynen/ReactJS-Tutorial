@@ -1,0 +1,36 @@
+
+YT Tutorial Video: https://youtu.be/x7mwVn2z3Sk
+
+
+Sun. 06/05/22' | PC
+    In terminal shell:
+        corepack enable
+        npm i -g corepack
+        yarn create react-app frontend
+
+
+    Within a terminal shell located at /ReactJS-Tutorial/frontend/:
+        yarn add @material-ui/core @material-ui/icons react-router-dom react-vertical-timeline-component
+        yarn start
+
+
+    Note: With React, when you decide to create a new page you can open a blank <ComponentName>.js and type "rfce" specifically then press enter. This will create a quick and basic snippet.
+
+    In the video tutorial, he makes his own CSS and doesn't show his process of adding it. You must look at the source code to see. Which is fine, but I am going to use Bootstrap.
+
+
+    Within a terminal shell located at /ReactJS-Tutorial/frontend/:
+        yarn add react-bootstrap bootstrap
+
+
+    I'd rather use Bulma as for some reason it just seems simpler. Bootstrap is a commonly known thing but it isn't that great so idk why I keep trying to use it in my projects.
+
+
+    Within a terminal shell located at /ReactJS-Tutorial/frontend/:
+        yarn remove react-bootstrap bootstrap
+        yarn add bulma
+
+    Stopped video at 30:35. Done for today. Tried getting navbar hamburger working for bulma navbar and couldn't. Maybe will try tomorrow or just ignore the hamburger as it's not necessary at all for one or two links.
+
+
+
